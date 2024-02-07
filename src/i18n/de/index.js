@@ -1,0 +1,23 @@
+/* eslint-disable quote-props */
+export default {
+  'app.name': 'Profil Arne Seib',
+  'app.version': 'Version: ',
+  'ai-assistant.name': 'Fin',
+  'ai-assistant.welcome-message': 'Hallo, ich bin Fin. Wie kann ich Ihnen helfen?',
+  'username': 'Benutzer',
+  'connection.state.disconnected': 'Nicht verbunden.',
+  'connection.state.disconnecting': 'Trennen...',
+  'connection.state.connected': 'Verbunden',
+  'connection.state.connecting': 'Verbinden...',
+  'connection.state.error': 'Fehler',
+  'connection.action.connect': 'Verbinden',
+  'conversation.new': `Neue Unterhaltung`,
+  'conversation.new.undo': `Zurück`,
+  'conversation.download': `Unterhaltung runterladen`,
+  'conversation.overline': `Du unterhältst dich mit:`,
+  'privacyStatement.headline': 'Datenschutzerklärung',
+  'privacyStatement.button.accept': 'Akzeptieren',
+  'home.title': 'Chat',
+  'about.title': 'Über diese App',
+  'terms-and-conditions.title': 'Impressum',
+};
