@@ -72,9 +72,6 @@ import {
 export default defineComponent({
   name: 'AboutComponent',
 
-  components: {
-  },
-
   setup() {
     return {
       // eslint-disable-next-line no-undef

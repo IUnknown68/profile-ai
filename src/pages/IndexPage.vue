@@ -49,20 +49,20 @@
               auto-close
             >
               <q-list style="min-width: 120px">
-                <MenuItem
+                <menu-item
                   clickable
                   @click="clearConversation"
                   icon="restart_alt"
                   :label="$t('conversation.new')"
                 />
-                <MenuItem
+                <menu-item
                   clickable
                   @click="undoClearConversation"
                   icon="undo"
                   :disable="!canUndo"
                   :label="$t('conversation.new.undo')"
                 />
-                <MenuItem
+                <menu-item
                   clickable
                   @click="downloadConversation"
                   icon="download"
@@ -78,7 +78,7 @@
       <q-separator inset />
 
       <q-card-section>
-        <MessageEntry
+        <message-entry
           v-for="(message, index) of conversation"
           :key="index"
           :message="message"

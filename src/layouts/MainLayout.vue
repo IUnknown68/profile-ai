@@ -1,17 +1,17 @@
 <template>
   <q-layout view="hHh Lpr lFf">
-    <MainLayoutHeader />
+    <main-layout-header />
     <q-page-container>
       <router-view v-if="gdprConsent" />
       <q-page v-else>
-        <MainLayoutConsentDialog />
+        <main-layout-consent-dialog />
       </q-page>
     </q-page-container>
     <q-footer
       bordered
       class="bg-white flex column items-center q-px-md q-pt-lg q-pb-md"
     >
-      <ChatInput
+      <chat-input
         v-if="isChat"
         class="container-800"
       />

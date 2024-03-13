@@ -45,7 +45,7 @@
         />
       </q-tabs>
       <q-space />
-      <A3ConnectButton
+      <a3-connect-button
         flat
         dense
         round

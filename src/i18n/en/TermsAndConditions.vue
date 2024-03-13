@@ -4,7 +4,7 @@
       <div class="text-h4 text-center q-mb-md">
         {{$t('terms-and-conditions.title')}}
       </div>
-      <PrivacyStatement is-terms />
+      <privacy-statement is-terms />
     </div>
   </q-page>
 </template>
