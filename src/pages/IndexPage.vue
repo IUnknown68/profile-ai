@@ -17,7 +17,7 @@
             rounded
           >
             <img
-              src="~assets/avatar.png"
+              src="/avatar.png"
               :style="avatarStyle"
             >
           </q-avatar>
@@ -180,8 +180,8 @@ export default defineComponent({
     );
     const closed = computed(() => (state.value === ConnectionState.Closed));
 
-    const hue = ref(220);
-    const saturation = ref(0.2);
+    const hue = ref(80);
+    const saturation = ref(0.9);
     const avatarStyle = computed(() => ({
       filter: `hue-rotate(${hue.value}deg) saturate(${saturation.value})`,
       transition: 'filter 0.3s ease-out',
